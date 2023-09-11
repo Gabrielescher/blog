@@ -1,0 +1,108 @@
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    margin-top: 15px;
+    background-color: rgb(48, 47, 47);
+}
+
+.container{
+    display: flex;
+    max-width: 80%;
+    Margin: 0 auto;
+}
+
+main{
+display: flex;
+justify-content: space-between;
+width: 1000px;
+height: 1000px;
+margin: 0 auto;
+margin-top: 50px;
+}
+figure>img {
+    width: 50%;
+    height: 50%;
+    margin-left: 30px;
+}
+#Busca {
+    background-color: #E0EEEE;
+    border: solid 2px rgb(196, 208, 228);
+    border-radius: 10px;
+    width: 1200px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 710px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 393px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;    
+    background: rgb(168, 184, 213);
+}
+
+#Busca img {
+    float: left;
+}
+
+.box{
+width: 500px;
+height: 700px;
+border: 4px flex;
+text-align: center;
+justify-content: center;
+margin-bottom: 150px;
+border-style: inset;
+border-radius: 100px;
+margin-left: 180px;
+}
+.sidebar{
+position: absolute;
+top:10%
+   
+
+}
+
+
+.box:hover{
+    box-shadow: 5px 5px 15px;
+}
+
+#green{
+    background-color:green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#grey {
+    background-color: grey;
+    
+    }
+    #red {
+        background-color: rgb(135, 127, 127);
+        
+        }
+footer {
+    background-color: rgb(199, 211, 234);
+line-height: 20;
+text-align: center;
+   
+    width: 10%;
+   
+}
